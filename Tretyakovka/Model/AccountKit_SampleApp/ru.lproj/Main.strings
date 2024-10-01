@@ -1,0 +1,105 @@
+
+/* Class = "UITabBarItem"; title = "Музей"; ObjectID = "2u2-qc-dVl"; */
+"2u2-qc-dVl.title" = "Музей";
+
+/* Class = "UITextField"; placeholder = "Армавени Манавазанян"; ObjectID = "5Rb-to-qac"; */
+"5Rb-to-qac.placeholder" = "Армавени Манавазанян";
+
+/* Class = "UILabel"; text = "Москва, Олимпийский проспект, 9"; ObjectID = "7BG-3C-1Kg"; */
+"7BG-3C-1Kg.text" = "Москва, Олимпийский проспект, 9";
+
+/* Class = "UILabel"; text = "МОЙ ПРОФИЛЬ"; ObjectID = "Cbj-of-M9W"; */
+"Cbj-of-M9W.text" = "МОЙ ПРОФИЛЬ";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Din-OS-eT0"; */
+"Din-OS-eT0.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "Dx9-3U-ZIb"; */
+"Dx9-3U-ZIb.normalTitle" = "Facebook";
+
+/* Class = "UIButton"; normalTitle = "FOLLOW"; ObjectID = "Elu-oy-JUL"; */
+"Elu-oy-JUL.normalTitle" = "FOLLOW";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "IB2-VF-3jJ"; */
+"IB2-VF-3jJ.title" = "Done";
+
+/* Class = "UILabel"; text = "+7 (495) 681-07-65"; ObjectID = "KNS-pP-GzV"; */
+"KNS-pP-GzV.text" = "+7 (495) 681-07-65";
+
+/* Class = "UINavigationItem"; title = "Follow Friends"; ObjectID = "KW8-LP-a6W"; */
+"KW8-LP-a6W.title" = "Follow Friends";
+
+/* Class = "UIButton"; normalTitle = "Вконтакте(скоро)"; ObjectID = "KnB-fn-1Rb"; */
+"KnB-fn-1Rb.normalTitle" = "Вконтакте(скоро)";
+
+/* Class = "UITextField"; placeholder = "armaveni@gmail.com"; ObjectID = "Nxd-QM-wOd"; */
+"Nxd-QM-wOd.placeholder" = "armaveni@gmail.com";
+
+/* Class = "UILabel"; text = "Российская и Ново-Нахичеванская Епархия святой армянской апостольской православной церкви"; ObjectID = "QS9-zX-yTR"; */
+"QS9-zX-yTR.text" = "Российская и Ново-Нахичеванская Епархия святой армянской апостольской православной церкви";
+
+/* Class = "UILabel"; text = "+7 (495) 681-07-65"; ObjectID = "QWG-bs-2mk"; */
+"QWG-bs-2mk.text" = "+7 (495) 681-07-65";
+
+/* Class = "UILabel"; text = "Для управления профилем вам необходимо авторизоваться"; ObjectID = "RZr-ZF-y5n"; */
+"RZr-ZF-y5n.text" = "Для управления профилем вам необходимо авторизоваться";
+
+/* Class = "UILabel"; text = "info@armenianchurch.ru"; ObjectID = "Rkd-Cb-hVD"; */
+"Rkd-Cb-hVD.text" = "info@armenianchurch.ru";
+
+/* Class = "UILabel"; text = "Электронная почта"; ObjectID = "VUg-Mo-Uq7"; */
+"VUg-Mo-Uq7.text" = "Электронная почта";
+
+/* Class = "UILabel"; text = "Наши аккаунты в соцсетях:"; ObjectID = "Vaf-wT-Gn4"; */
+"Vaf-wT-Gn4.text" = "Наши аккаунты в соцсетях:";
+
+/* Class = "UILabel"; text = "Имя и фамилия"; ObjectID = "W3b-Ee-cwe"; */
+"W3b-Ee-cwe.text" = "Имя и фамилия";
+
+/* Class = "UILabel"; text = "Москва, Олимпийский проспект, 9"; ObjectID = "Wcx-IQ-B6q"; */
+"Wcx-IQ-B6q.text" = "Москва, Олимпийский проспект, 9";
+
+/* Class = "UILabel"; text = "info@armenianchurch.ru"; ObjectID = "cjK-sK-QMf"; */
+"cjK-sK-QMf.text" = "info@armenianchurch.ru";
+
+/* Class = "UILabel"; text = "+7 (916) 489-43-79"; ObjectID = "cpz-PF-LS1"; */
+"cpz-PF-LS1.text" = "+7 (916) 489-43-79";
+
+/* Class = "UILabel"; text = "Наши аккаунты в соцсетях:"; ObjectID = "dXq-Px-SKH"; */
+"dXq-Px-SKH.text" = "Наши аккаунты в соцсетях:";
+
+/* Class = "UILabel"; text = "Я"; ObjectID = "f2K-xG-MG2"; */
+"f2K-xG-MG2.text" = "Я";
+
+/* Class = "UIButton"; normalTitle = "Пользовательское соглашение"; ObjectID = "ioS-PY-vCN"; */
+"ioS-PY-vCN.normalTitle" = "Пользовательское соглашение";
+
+/* Class = "UITextField"; placeholder = "armaveni@gmail.com"; ObjectID = "kHc-xp-YWv"; */
+"kHc-xp-YWv.placeholder" = "armaveni@gmail.com";
+
+/* Class = "UIButton"; normalTitle = "Пользовательское соглашение"; ObjectID = "kLg-th-tgD"; */
+"kLg-th-tgD.normalTitle" = "Пользовательское соглашение";
+
+/* Class = "UITabBarItem"; title = "Я"; ObjectID = "koW-Y4-UCq"; */
+"koW-Y4-UCq.title" = "Я";
+
+/* Class = "UIButton"; normalTitle = "Log Out"; ObjectID = "l5h-Mj-lim"; */
+"l5h-Mj-lim.normalTitle" = "Log Out";
+
+/* Class = "UILabel"; text = "Номер телефона"; ObjectID = "pDd-If-XLH"; */
+"pDd-If-XLH.text" = "Номер телефона";
+
+/* Class = "UILabel"; text = "Tyler Jenkins"; ObjectID = "prV-3R-QVO"; */
+"prV-3R-QVO.text" = "Tyler Jenkins";
+
+/* Class = "UITabBarItem"; title = "Молитвы"; ObjectID = "rlA-Fo-jtO"; */
+"rlA-Fo-jtO.title" = "Молитвы";
+
+/* Class = "UIButton"; normalTitle = "Мобильный"; ObjectID = "snv-Wc-dzR"; */
+"snv-Wc-dzR.normalTitle" = "Мобильный";
+
+/* Class = "UILabel"; text = "Российская и Ново-Нахичеванская Епархия святой армянской апостольской православной церкви"; ObjectID = "tcK-8D-sIG"; */
+"tcK-8D-sIG.text" = "Российская и Ново-Нахичеванская Епархия святой армянской апостольской православной церкви";
+
+/* Class = "UITabBarItem"; title = "Религия"; ObjectID = "y97-7r-6Tw"; */
+"y97-7r-6Tw.title" = "Религия";

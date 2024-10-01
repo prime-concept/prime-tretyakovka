@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F52117A1FD2BD4900156D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5211791FD2BD4900156D44 /* AppDelegate.swift */; };
+		1F52117C1FD2BD4900156D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F52117B1FD2BD4900156D44 /* ViewController.swift */; };
+		1F52117F1FD2BD4900156D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F52117D1FD2BD4900156D44 /* Main.storyboard */; };
+		1F5211821FD2BD4900156D44 /* Tretyakovka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F5211801FD2BD4900156D44 /* Tretyakovka.xcdatamodeld */; };
+		1F5211841FD2BD4900156D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5211831FD2BD4900156D44 /* Assets.xcassets */; };
+		1F5211871FD2BD4900156D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5211851FD2BD4900156D44 /* LaunchScreen.storyboard */; };
+		1F75F8621FD2E2A1008C4B35 /* VKDelegateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8611FD2E2A1008C4B35 /* VKDelegateExample.swift */; };
+		1F75F8CE1FD2E357008C4B35 /* OpenGraphClient-ProfileMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8C81FD2E355008C4B35 /* OpenGraphClient-ProfileMap.swift */; };
+		1F75F8CF1FD2E357008C4B35 /* OpenGraphClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8C91FD2E356008C4B35 /* OpenGraphClient.swift */; };
+		1F75F8D01FD2E357008C4B35 /* AccountKitClient-ProfileMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8CA1FD2E356008C4B35 /* AccountKitClient-ProfileMap.swift */; };
+		1F75F8D11FD2E357008C4B35 /* OpenGraphClient-TestUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8CB1FD2E356008C4B35 /* OpenGraphClient-TestUsers.swift */; };
+		1F75F8D21FD2E357008C4B35 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8CC1FD2E357008C4B35 /* ImageLoader.swift */; };
+		1F75F8D31FD2E357008C4B35 /* AccountKitClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8CD1FD2E357008C4B35 /* AccountKitClient.swift */; };
+		1F75F8DA1FD2E38C008C4B35 /* Surfer-Hardcoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8D51FD2E38A008C4B35 /* Surfer-Hardcoded.swift */; };
+		1F75F8DB1FD2E38C008C4B35 /* SurfLocation-Hardcoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8D61FD2E38B008C4B35 /* SurfLocation-Hardcoded.swift */; };
+		1F75F8DC1FD2E38C008C4B35 /* SurfLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8D71FD2E38B008C4B35 /* SurfLocation.swift */; };
+		1F75F8DD1FD2E38C008C4B35 /* Surfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8D81FD2E38B008C4B35 /* Surfer.swift */; };
+		1F75F8DE1FD2E38C008C4B35 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8D91FD2E38C008C4B35 /* Profile.swift */; };
+		1F75F8E61FD2E3EE008C4B35 /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8E21FD2E3ED008C4B35 /* ExampleCollectionViewCell.swift */; };
+		1F75F8E71FD2E3EE008C4B35 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8E31FD2E3ED008C4B35 /* ExampleViewController.swift */; };
+		1F75F8E81FD2E3EE008C4B35 /* LoayltycardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8E41FD2E3ED008C4B35 /* LoayltycardsViewController.swift */; };
+		1F75F8E91FD2E3EE008C4B35 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8E51FD2E3EE008C4B35 /* AddCardVC.swift */; };
+		1F75F8EF1FD2E3FA008C4B35 /* HFCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8EA1FD2E3F9008C4B35 /* HFCardCollectionView.swift */; };
+		1F75F8F01FD2E3FA008C4B35 /* HFCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8EB1FD2E3F9008C4B35 /* HFCardCollectionViewCell.swift */; };
+		1F75F8F11FD2E3FA008C4B35 /* HFCardCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8EC1FD2E3F9008C4B35 /* HFCardCollectionViewLayout.swift */; };
+		1F75F8F21FD2E3FA008C4B35 /* EditCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8ED1FD2E3FA008C4B35 /* EditCardVC.swift */; };
+		1F75F8F31FD2E3FA008C4B35 /* HFCardCollectionViewLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8EE1FD2E3FA008C4B35 /* HFCardCollectionViewLayoutDelegate.swift */; };
+		1F75F8FD1FD2E46B008C4B35 /* FollowFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8F51FD2E468008C4B35 /* FollowFriendsViewController.swift */; };
+		1F75F8FE1FD2E46B008C4B35 /* SurfLocationsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8F61FD2E469008C4B35 /* SurfLocationsDataSource.swift */; };
+		1F75F8FF1FD2E46B008C4B35 /* UILabel+TextSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8F71FD2E469008C4B35 /* UILabel+TextSpacing.swift */; };
+		1F75F9001FD2E46B008C4B35 /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8F81FD2E469008C4B35 /* TicketsTableViewCell.swift */; };
+		1F75F9011FD2E46B008C4B35 /* SurfLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8F91FD2E46A008C4B35 /* SurfLocationsViewController.swift */; };
+		1F75F9021FD2E46B008C4B35 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8FA1FD2E46A008C4B35 /* UIColor+CustomColors.swift */; };
+		1F75F9031FD2E46B008C4B35 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8FB1FD2E46A008C4B35 /* AccountViewController.swift */; };
+		1F75F9041FD2E46B008C4B35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8FC1FD2E46B008C4B35 /* LoginViewController.swift */; };
+		1F75F90B1FD2E4C5008C4B35 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9071FD2E4C4008C4B35 /* FriendCell.swift */; };
+		1F75F90C1FD2E4C5008C4B35 /* SurfLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9081FD2E4C5008C4B35 /* SurfLocationCell.swift */; };
+		1F75F90D1FD2E4C5008C4B35 /* VisitorBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9091FD2E4C5008C4B35 /* VisitorBadge.swift */; };
+		1F75F9141FD2E53E008C4B35 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9101FD2E53D008C4B35 /* HomeVC.swift */; };
+		1F75F9151FD2E53E008C4B35 /* Exhibitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9111FD2E53D008C4B35 /* Exhibitions.swift */; };
+		1F75F9161FD2E53E008C4B35 /* ProgramsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9121FD2E53E008C4B35 /* ProgramsVC.swift */; };
+		1F75F9171FD2E53E008C4B35 /* MuseumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9131FD2E53E008C4B35 /* MuseumVC.swift */; };
+		1F75F9191FD2E577008C4B35 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9181FD2E577008C4B35 /* Configuration.swift */; };
+		1F75F9261FD2E88E008C4B35 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F9251FD2E88E008C4B35 /* MainTabBar.swift */; };
+		A6A3381E849B4D2B77C49895 /* Pods_Tretyakovka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ECBBBFAF74D6EF0DD2FB62 /* Pods_Tretyakovka.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F5211761FD2BD4900156D44 /* Tretyakovka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tretyakovka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5211791FD2BD4900156D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F52117B1FD2BD4900156D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F52117E1FD2BD4900156D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F5211811FD2BD4900156D44 /* Tretyakovka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tretyakovka.xcdatamodel; sourceTree = "<group>"; };
+		1F5211831FD2BD4900156D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F5211861FD2BD4900156D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F5211881FD2BD4900156D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F75F85E1FD2DA2D008C4B35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		1F75F85F1FD2DA2D008C4B35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1F75F8611FD2E2A1008C4B35 /* VKDelegateExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKDelegateExample.swift; sourceTree = "<group>"; };
+		1F75F8C81FD2E355008C4B35 /* OpenGraphClient-ProfileMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OpenGraphClient-ProfileMap.swift"; sourceTree = "<group>"; };
+		1F75F8C91FD2E356008C4B35 /* OpenGraphClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphClient.swift; sourceTree = "<group>"; };
+		1F75F8CA1FD2E356008C4B35 /* AccountKitClient-ProfileMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AccountKitClient-ProfileMap.swift"; sourceTree = "<group>"; };
+		1F75F8CB1FD2E356008C4B35 /* OpenGraphClient-TestUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OpenGraphClient-TestUsers.swift"; sourceTree = "<group>"; };
+		1F75F8CC1FD2E357008C4B35 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		1F75F8CD1FD2E357008C4B35 /* AccountKitClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountKitClient.swift; sourceTree = "<group>"; };
+		1F75F8D51FD2E38A008C4B35 /* Surfer-Hardcoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Surfer-Hardcoded.swift"; sourceTree = "<group>"; };
+		1F75F8D61FD2E38B008C4B35 /* SurfLocation-Hardcoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurfLocation-Hardcoded.swift"; sourceTree = "<group>"; };
+		1F75F8D71FD2E38B008C4B35 /* SurfLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfLocation.swift; sourceTree = "<group>"; };
+		1F75F8D81FD2E38B008C4B35 /* Surfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surfer.swift; sourceTree = "<group>"; };
+		1F75F8D91FD2E38C008C4B35 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1F75F8E21FD2E3ED008C4B35 /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F75F8E31FD2E3ED008C4B35 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		1F75F8E41FD2E3ED008C4B35 /* LoayltycardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoayltycardsViewController.swift; sourceTree = "<group>"; };
+		1F75F8E51FD2E3EE008C4B35 /* AddCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
+		1F75F8EA1FD2E3F9008C4B35 /* HFCardCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFCardCollectionView.swift; sourceTree = "<group>"; };
+		1F75F8EB1FD2E3F9008C4B35 /* HFCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F75F8EC1FD2E3F9008C4B35 /* HFCardCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFCardCollectionViewLayout.swift; sourceTree = "<group>"; };
+		1F75F8ED1FD2E3FA008C4B35 /* EditCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCardVC.swift; sourceTree = "<group>"; };
+		1F75F8EE1FD2E3FA008C4B35 /* HFCardCollectionViewLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFCardCollectionViewLayoutDelegate.swift; sourceTree = "<group>"; };
+		1F75F8F51FD2E468008C4B35 /* FollowFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowFriendsViewController.swift; sourceTree = "<group>"; };
+		1F75F8F61FD2E469008C4B35 /* SurfLocationsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfLocationsDataSource.swift; sourceTree = "<group>"; };
+		1F75F8F71FD2E469008C4B35 /* UILabel+TextSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+TextSpacing.swift"; sourceTree = "<group>"; };
+		1F75F8F81FD2E469008C4B35 /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
+		1F75F8F91FD2E46A008C4B35 /* SurfLocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfLocationsViewController.swift; sourceTree = "<group>"; };
+		1F75F8FA1FD2E46A008C4B35 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		1F75F8FB1FD2E46A008C4B35 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1F75F8FC1FD2E46B008C4B35 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F75F9071FD2E4C4008C4B35 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		1F75F9081FD2E4C5008C4B35 /* SurfLocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfLocationCell.swift; sourceTree = "<group>"; };
+		1F75F9091FD2E4C5008C4B35 /* VisitorBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorBadge.swift; sourceTree = "<group>"; };
+		1F75F9101FD2E53D008C4B35 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1F75F9111FD2E53D008C4B35 /* Exhibitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exhibitions.swift; sourceTree = "<group>"; };
+		1F75F9121FD2E53E008C4B35 /* ProgramsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsVC.swift; sourceTree = "<group>"; };
+		1F75F9131FD2E53E008C4B35 /* MuseumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumVC.swift; sourceTree = "<group>"; };
+		1F75F9181FD2E577008C4B35 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		1F75F9251FD2E88E008C4B35 /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		27A72B0C36EE98D1B9BADD23 /* Pods-Tretyakovka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tretyakovka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tretyakovka/Pods-Tretyakovka.release.xcconfig"; sourceTree = "<group>"; };
+		55ECBBBFAF74D6EF0DD2FB62 /* Pods_Tretyakovka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tretyakovka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EB2F16BA406B9052967826 /* Pods-Tretyakovka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tretyakovka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tretyakovka/Pods-Tretyakovka.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5211731FD2BD4900156D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A3381E849B4D2B77C49895 /* Pods_Tretyakovka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F52116D1FD2BD4900156D44 = {
+			isa = PBXGroup;
+			children = (
+				1F5211781FD2BD4900156D44 /* Tretyakovka */,
+				1F5211771FD2BD4900156D44 /* Products */,
+				FD6904A49A328336E4CCAD3A /* Pods */,
+				925A3D8553EA2B6CBE7BF29D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F5211771FD2BD4900156D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F5211761FD2BD4900156D44 /* Tretyakovka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5211781FD2BD4900156D44 /* Tretyakovka */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F9051FD2E4B7008C4B35 /* View */,
+				1F75F8E01FD2E3D0008C4B35 /* Controller */,
+				1F75F8631FD2E31F008C4B35 /* Model */,
+				1F5211791FD2BD4900156D44 /* AppDelegate.swift */,
+				1F75F9181FD2E577008C4B35 /* Configuration.swift */,
+				1F75F9251FD2E88E008C4B35 /* MainTabBar.swift */,
+				1F52117B1FD2BD4900156D44 /* ViewController.swift */,
+				1F52117D1FD2BD4900156D44 /* Main.storyboard */,
+				1F5211831FD2BD4900156D44 /* Assets.xcassets */,
+				1F5211851FD2BD4900156D44 /* LaunchScreen.storyboard */,
+				1F5211881FD2BD4900156D44 /* Info.plist */,
+				1F5211801FD2BD4900156D44 /* Tretyakovka.xcdatamodeld */,
+			);
+			path = Tretyakovka;
+			sourceTree = "<group>";
+		};
+		1F75F8631FD2E31F008C4B35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F8DF1FD2E3AF008C4B35 /* VK Util */,
+				1F75F8D41FD2E37D008C4B35 /* FB Util */,
+				1F75F8C71FD2E33F008C4B35 /* Syncing */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F75F8C71FD2E33F008C4B35 /* Syncing */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F8CA1FD2E356008C4B35 /* AccountKitClient-ProfileMap.swift */,
+				1F75F8CD1FD2E357008C4B35 /* AccountKitClient.swift */,
+				1F75F8CC1FD2E357008C4B35 /* ImageLoader.swift */,
+				1F75F8C81FD2E355008C4B35 /* OpenGraphClient-ProfileMap.swift */,
+				1F75F8CB1FD2E356008C4B35 /* OpenGraphClient-TestUsers.swift */,
+				1F75F8C91FD2E356008C4B35 /* OpenGraphClient.swift */,
+			);
+			path = Syncing;
+			sourceTree = "<group>";
+		};
+		1F75F8D41FD2E37D008C4B35 /* FB Util */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F8D91FD2E38C008C4B35 /* Profile.swift */,
+				1F75F8D51FD2E38A008C4B35 /* Surfer-Hardcoded.swift */,
+				1F75F8D81FD2E38B008C4B35 /* Surfer.swift */,
+				1F75F8D61FD2E38B008C4B35 /* SurfLocation-Hardcoded.swift */,
+				1F75F8D71FD2E38B008C4B35 /* SurfLocation.swift */,
+			);
+			path = "FB Util";
+			sourceTree = "<group>";
+		};
+		1F75F8DF1FD2E3AF008C4B35 /* VK Util */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F8611FD2E2A1008C4B35 /* VKDelegateExample.swift */,
+			);
+			path = "VK Util";
+			sourceTree = "<group>";
+		};
+		1F75F8E01FD2E3D0008C4B35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F8F41FD2E442008C4B35 /* User Profile */,
+				1F75F8E11FD2E3DB008C4B35 /* LoyaltyCards */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F75F8E11FD2E3DB008C4B35 /* LoyaltyCards */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F8ED1FD2E3FA008C4B35 /* EditCardVC.swift */,
+				1F75F8EA1FD2E3F9008C4B35 /* HFCardCollectionView.swift */,
+				1F75F8EB1FD2E3F9008C4B35 /* HFCardCollectionViewCell.swift */,
+				1F75F8EC1FD2E3F9008C4B35 /* HFCardCollectionViewLayout.swift */,
+				1F75F8EE1FD2E3FA008C4B35 /* HFCardCollectionViewLayoutDelegate.swift */,
+				1F75F8E51FD2E3EE008C4B35 /* AddCardVC.swift */,
+				1F75F8E21FD2E3ED008C4B35 /* ExampleCollectionViewCell.swift */,
+				1F75F8E31FD2E3ED008C4B35 /* ExampleViewController.swift */,
+				1F75F8E41FD2E3ED008C4B35 /* LoayltycardsViewController.swift */,
+			);
+			path = LoyaltyCards;
+			sourceTree = "<group>";
+		};
+		1F75F8F41FD2E442008C4B35 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F8FB1FD2E46A008C4B35 /* AccountViewController.swift */,
+				1F75F8F51FD2E468008C4B35 /* FollowFriendsViewController.swift */,
+				1F75F8FC1FD2E46B008C4B35 /* LoginViewController.swift */,
+				1F75F8F61FD2E469008C4B35 /* SurfLocationsDataSource.swift */,
+				1F75F8F91FD2E46A008C4B35 /* SurfLocationsViewController.swift */,
+				1F75F8FA1FD2E46A008C4B35 /* UIColor+CustomColors.swift */,
+				1F75F8F71FD2E469008C4B35 /* UILabel+TextSpacing.swift */,
+			);
+			path = "User Profile";
+			sourceTree = "<group>";
+		};
+		1F75F9051FD2E4B7008C4B35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F90F1FD2E52D008C4B35 /* WebView */,
+				1F75F90E1FD2E4DD008C4B35 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F75F90E1FD2E4DD008C4B35 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F9071FD2E4C4008C4B35 /* FriendCell.swift */,
+				1F75F9081FD2E4C5008C4B35 /* SurfLocationCell.swift */,
+				1F75F9091FD2E4C5008C4B35 /* VisitorBadge.swift */,
+				1F75F8F81FD2E469008C4B35 /* TicketsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1F75F90F1FD2E52D008C4B35 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F9101FD2E53D008C4B35 /* HomeVC.swift */,
+				1F75F9131FD2E53E008C4B35 /* MuseumVC.swift */,
+				1F75F9111FD2E53D008C4B35 /* Exhibitions.swift */,
+				1F75F9121FD2E53E008C4B35 /* ProgramsVC.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		925A3D8553EA2B6CBE7BF29D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55ECBBBFAF74D6EF0DD2FB62 /* Pods_Tretyakovka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6904A49A328336E4CCAD3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59EB2F16BA406B9052967826 /* Pods-Tretyakovka.debug.xcconfig */,
+				27A72B0C36EE98D1B9BADD23 /* Pods-Tretyakovka.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5211751FD2BD4900156D44 /* Tretyakovka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F52118B1FD2BD4900156D44 /* Build configuration list for PBXNativeTarget "Tretyakovka" */;
+			buildPhases = (
+				F9A148428953CA761F593C0F /* [CP] Check Pods Manifest.lock */,
+				1F5211721FD2BD4900156D44 /* Sources */,
+				1F5211731FD2BD4900156D44 /* Frameworks */,
+				1F5211741FD2BD4900156D44 /* Resources */,
+				9AD52E98F28045066031E4E0 /* [CP] Embed Pods Frameworks */,
+				B614D9603EDC1F7EFC13C44D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tretyakovka;
+			productName = Tretyakovka;
+			productReference = 1F5211761FD2BD4900156D44 /* Tretyakovka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F52116E1FD2BD4900156D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sabry;
+				TargetAttributes = {
+					1F5211751FD2BD4900156D44 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F5211711FD2BD4900156D44 /* Build configuration list for PBXProject "Tretyakovka" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 1F52116D1FD2BD4900156D44;
+			productRefGroup = 1F5211771FD2BD4900156D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F5211751FD2BD4900156D44 /* Tretyakovka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5211741FD2BD4900156D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5211871FD2BD4900156D44 /* LaunchScreen.storyboard in Resources */,
+				1F5211841FD2BD4900156D44 /* Assets.xcassets in Resources */,
+				1F52117F1FD2BD4900156D44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AD52E98F28045066031E4E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tretyakovka/Pods-Tretyakovka-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyVK/SwiftyVK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tretyakovka/Pods-Tretyakovka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B614D9603EDC1F7EFC13C44D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tretyakovka/Pods-Tretyakovka-resources.sh",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/af.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ar.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/bn.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ckb_IQ.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/cs.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/da.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/de.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/el.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/en.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/en_GB.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/es.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/es_ES.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/fi.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/fr.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/gu.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/he.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/hi.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/hr.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/hu.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/id.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/it.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/iw.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ja.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ko.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ml.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/mr.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ms.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/my.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/my_MM.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/nb.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/nl.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/pa.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/pl.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/pt.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/pt_PT.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ro.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ru.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/sk.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/sv.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/sw.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/sw_KE.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ta.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/te.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/th.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/tl.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/tr.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ur.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/ur_PK.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/vi.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/zh.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/zh_Hant_HK.lproj",
+				"${PODS_ROOT}/AccountKit/AccountKit.framework/AccountKitStrings.bundle/Resources/zh_Hant_TW.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/af.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ar.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bn.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ckb_IQ.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cs.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/da.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/el.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en_GB.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es_ES.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gu.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/he.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hu.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/id.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iw.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ml.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ms.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/my.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/my_MM.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nb.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pa.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt_PT.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ro.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sk.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sv.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sw.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sw_KE.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ta.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/te.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/th.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ur.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ur_PK.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh_Hant_HK.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh_Hant_TW.lproj",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tretyakovka/Pods-Tretyakovka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A148428953CA761F593C0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tretyakovka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5211721FD2BD4900156D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F75F8D01FD2E357008C4B35 /* AccountKitClient-ProfileMap.swift in Sources */,
+				1F75F8DE1FD2E38C008C4B35 /* Profile.swift in Sources */,
+				1F75F8CE1FD2E357008C4B35 /* OpenGraphClient-ProfileMap.swift in Sources */,
+				1F75F9161FD2E53E008C4B35 /* ProgramsVC.swift in Sources */,
+				1F75F90D1FD2E4C5008C4B35 /* VisitorBadge.swift in Sources */,
+				1F75F9151FD2E53E008C4B35 /* Exhibitions.swift in Sources */,
+				1F75F9191FD2E577008C4B35 /* Configuration.swift in Sources */,
+				1F52117C1FD2BD4900156D44 /* ViewController.swift in Sources */,
+				1F75F8DC1FD2E38C008C4B35 /* SurfLocation.swift in Sources */,
+				1F75F8FD1FD2E46B008C4B35 /* FollowFriendsViewController.swift in Sources */,
+				1F75F8E91FD2E3EE008C4B35 /* AddCardVC.swift in Sources */,
+				1F75F9171FD2E53E008C4B35 /* MuseumVC.swift in Sources */,
+				1F75F9031FD2E46B008C4B35 /* AccountViewController.swift in Sources */,
+				1F5211821FD2BD4900156D44 /* Tretyakovka.xcdatamodeld in Sources */,
+				1F75F90C1FD2E4C5008C4B35 /* SurfLocationCell.swift in Sources */,
+				1F75F8FF1FD2E46B008C4B35 /* UILabel+TextSpacing.swift in Sources */,
+				1F75F8D11FD2E357008C4B35 /* OpenGraphClient-TestUsers.swift in Sources */,
+				1F75F8DD1FD2E38C008C4B35 /* Surfer.swift in Sources */,
+				1F75F9041FD2E46B008C4B35 /* LoginViewController.swift in Sources */,
+				1F75F9001FD2E46B008C4B35 /* TicketsTableViewCell.swift in Sources */,
+				1F75F8E81FD2E3EE008C4B35 /* LoayltycardsViewController.swift in Sources */,
+				1F75F9011FD2E46B008C4B35 /* SurfLocationsViewController.swift in Sources */,
+				1F75F8D31FD2E357008C4B35 /* AccountKitClient.swift in Sources */,
+				1F75F8F31FD2E3FA008C4B35 /* HFCardCollectionViewLayoutDelegate.swift in Sources */,
+				1F75F9021FD2E46B008C4B35 /* UIColor+CustomColors.swift in Sources */,
+				1F75F9141FD2E53E008C4B35 /* HomeVC.swift in Sources */,
+				1F75F8D21FD2E357008C4B35 /* ImageLoader.swift in Sources */,
+				1F75F8DB1FD2E38C008C4B35 /* SurfLocation-Hardcoded.swift in Sources */,
+				1F75F8FE1FD2E46B008C4B35 /* SurfLocationsDataSource.swift in Sources */,
+				1F75F8F21FD2E3FA008C4B35 /* EditCardVC.swift in Sources */,
+				1F75F8621FD2E2A1008C4B35 /* VKDelegateExample.swift in Sources */,
+				1F52117A1FD2BD4900156D44 /* AppDelegate.swift in Sources */,
+				1F75F8E71FD2E3EE008C4B35 /* ExampleViewController.swift in Sources */,
+				1F75F8F01FD2E3FA008C4B35 /* HFCardCollectionViewCell.swift in Sources */,
+				1F75F8EF1FD2E3FA008C4B35 /* HFCardCollectionView.swift in Sources */,
+				1F75F8F11FD2E3FA008C4B35 /* HFCardCollectionViewLayout.swift in Sources */,
+				1F75F8E61FD2E3EE008C4B35 /* ExampleCollectionViewCell.swift in Sources */,
+				1F75F8DA1FD2E38C008C4B35 /* Surfer-Hardcoded.swift in Sources */,
+				1F75F8CF1FD2E357008C4B35 /* OpenGraphClient.swift in Sources */,
+				1F75F9261FD2E88E008C4B35 /* MainTabBar.swift in Sources */,
+				1F75F90B1FD2E4C5008C4B35 /* FriendCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F52117D1FD2BD4900156D44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F52117E1FD2BD4900156D44 /* Base */,
+				1F75F85E1FD2DA2D008C4B35 /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F5211851FD2BD4900156D44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5211861FD2BD4900156D44 /* Base */,
+				1F75F85F1FD2DA2D008C4B35 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F5211891FD2BD4900156D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F52118A1FD2BD4900156D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F52118C1FD2BD4900156D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EB2F16BA406B9052967826 /* Pods-Tretyakovka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = T76799GHJS;
+				INFOPLIST_FILE = Tretyakovka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.primepass.Tretyakovka1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1F52118D1FD2BD4900156D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A72B0C36EE98D1B9BADD23 /* Pods-Tretyakovka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = T76799GHJS;
+				INFOPLIST_FILE = Tretyakovka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.primepass.Tretyakovka1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5211711FD2BD4900156D44 /* Build configuration list for PBXProject "Tretyakovka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5211891FD2BD4900156D44 /* Debug */,
+				1F52118A1FD2BD4900156D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F52118B1FD2BD4900156D44 /* Build configuration list for PBXNativeTarget "Tretyakovka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F52118C1FD2BD4900156D44 /* Debug */,
+				1F52118D1FD2BD4900156D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F5211801FD2BD4900156D44 /* Tretyakovka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F5211811FD2BD4900156D44 /* Tretyakovka.xcdatamodel */,
+			);
+			currentVersion = 1F5211811FD2BD4900156D44 /* Tretyakovka.xcdatamodel */;
+			path = Tretyakovka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F52116E1FD2BD4900156D44 /* Project object */;
+}
